@@ -1,0 +1,11 @@
+INSTALL Python
+Microsoft store > install python ver-3.12
+
+module PySerial
+\> pip install pyserial 
+
+new version of pip
+\> pip install --upgrade pip
+
+module matplotlib.pyplot
+\> pip install matplotlib
