@@ -1,0 +1,20 @@
+Things to do for final Demo
+
+Record and replay data needs to insert the recorded data every half second, as if replaying the live scenario.
+The replay also needs to display the latest n amounts of points specified by the point limit. 
+e.g. recorded 16 points, point limit is 8. beings replaying at 9, 10, 11, 12, 13, 14, 15, 16. Ignore 1 to 8.
+
+The Y axis limits will reset whenever new data comes in.
+e.g. switching to 0.5 to -0.5, stays for a brief second, resets when newest data comes in and is plotted.
+Also gets rid of data on the temperature.
+
+labels on alarms, types and states dont update when first connected.
+specifically
+alarm types update
+alarm states (LED) do not update <------
+alarm thresholds update
+
+Need a useful error, like : Device disconnected, when the device is disconnected, and should disappear when reconnected.
+
+Restructure the sizes of all the components so that they fit onto the 1800 x 900 screen size.
+More space for everything.
